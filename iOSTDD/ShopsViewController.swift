@@ -7,15 +7,19 @@ import Foundation
 import UIKit
 
 class ShopsViewController: UITableViewController {
+  private let shops: [Shop]
+
   init(shops: [Shop]) {
+    self.shops = shops
     super.init(style: .plain)
   }
 
   required init?(coder aDecoder: NSCoder) {
+    shops = []
     super.init(coder: aDecoder)
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 1
+    return self.shops.count
   }
 }
