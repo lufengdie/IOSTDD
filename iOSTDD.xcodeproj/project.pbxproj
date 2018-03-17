@@ -14,6 +14,8 @@
 		31C5AC190670C09983AB0396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C5A7C6F8B79059A03C97B4 /* Main.storyboard */; };
 		31C5AF9BBA7CBA24FFF64DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C5A2C0DE1AA5A58BEED911 /* Assets.xcassets */; };
 		6ED8ABF139D5F650B0BD8978 /* Pods_iOSTDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AB2A5D04BAAA89CAEDCD4 /* Pods_iOSTDD.framework */; };
+		A16957F7F8BB1418ECB5DD1B /* ShopsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1695F89DC99CA7C78A40551 /* ShopsViewControllerSpec.swift */; };
+		A16959AD53A8E1F823887A02 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1695FB663473747EB8963BD /* ShopsViewController.swift */; };
 		CEC077D0CA613244C6C803E6 /* Pods_iOSTDDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43BD994E5361C19890A0668 /* Pods_iOSTDDTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		31C5AC72E72FAC7312ECCE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		31C5AFFA4D9A5C5D0D40ABFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575AB2A5D04BAAA89CAEDCD4 /* Pods_iOSTDD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTDD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1695F89DC99CA7C78A40551 /* ShopsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewControllerSpec.swift; sourceTree = "<group>"; };
+		A1695FB663473747EB8963BD /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopsViewController.swift; path = iOSTDD/ShopsViewController.swift; sourceTree = SOURCE_ROOT; };
 		C7904DDE83371C285EA407E3 /* Pods-iOSTDD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDD.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD.release.xcconfig"; sourceTree = "<group>"; };
 		CC1F3618D9681CCF37BFD5DE /* Pods-iOSTDDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDDTests/Pods-iOSTDDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D04EFB839AAEE713108FF971 /* Pods-iOSTDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTDD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTDD/Pods-iOSTDD.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				31C5AC72E72FAC7312ECCE09 /* Info.plist */,
+				A1695F89DC99CA7C78A40551 /* ShopsViewControllerSpec.swift */,
+				A1695FB663473747EB8963BD /* ShopsViewController.swift */,
 			);
 			path = iOSTDDTests;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				31C5AA452C88F47F6BD06AE3 /* AppDelegate.swift in Sources */,
 				31C5A1849F75C36622B8754F /* ViewController.swift in Sources */,
 				31C5ABBB1FF6137B7A37FEC0 /* Shop.swift in Sources */,
+				A16959AD53A8E1F823887A02 /* ShopsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16957F7F8BB1418ECB5DD1B /* ShopsViewControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
