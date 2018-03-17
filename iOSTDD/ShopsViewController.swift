@@ -19,7 +19,16 @@ class ShopsViewController: UITableViewController {
     super.init(coder: aDecoder)
   }
 
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    tableView?.register(ShopTableViewCell.self, forCellReuseIdentifier: "ShopCell")
+  }
+
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return self.shops.count
+  }
+
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    return tableView.dequeueReusableCell(withIdentifier: "ShopCell", for: indexPath)
   }
 }
