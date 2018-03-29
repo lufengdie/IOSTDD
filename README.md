@@ -1,3 +1,9 @@
+
+fork from (itrufeng-iOSTDD)[https://github.com/itrufeng/iOSTDD], 
+
+active from ThoughtWorks (2018年3月17日Mobile Workshop：体验 TDD in iOS)[https://jinshuju.net/f/uyWJrz]
+
+
 # TDD in iOS
 
 ## 需求
