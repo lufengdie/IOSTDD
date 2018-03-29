@@ -27,6 +27,7 @@ class ShopsViewControllerSpec: QuickSpec {
         it("shows shop cell") {
           expect(shopsViewController?.tableView?.dataSource?.tableView(shopsViewController!.tableView!, cellForRowAt: IndexPath(row: 0, section: 0)) as? ShopTableViewCell).notTo(beNil())
         }
+
       }
 
       context("when there is no data") {
